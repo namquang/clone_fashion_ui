@@ -2,69 +2,98 @@
 <html lang=en>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" type="text/css" href="css/reset.css">>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/header-footer.css">
+	<link rel="stylesheet" type="text/css" href="css/content-main.css">
+	<link rel="stylesheet" type="text/css" href="css/content-menu.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="container">
-        <header id="">
+        <header class = "l-header">
         <!-- top bar -->
-            <div class="top-bar">
-                <a href="#"><img src="image/phone-24.png" alt="phoneimage"/>Điện thoại: 0942.691.366</a>
-                <a class = "link" href="#" >Sản phẩm bạn thích</a>
-                <a class = "link" href="#" >Giỏ hàng</a>
-                <a class = "link" href="#" >Kiểm tra</a>
+            <div class="header-top-bar">
+				<div class = "sub-container">
+					<div class="header-contact">
+						<a href="#"><img src="image/phone-24.png" alt="phoneimage"/>Điện thoại: 0942.691.366</a>
+					</div>
+					<div class="header-link-shop-card">
+						<a class = "link" href="#" >Sản phẩm bạn thích</a>
+						<a class = "link" href="#" >Giỏ hàng</a>
+						<a class = "link" href="#" >Kiểm tra</a>
+					</div>
+				</div>
             </div>
         <!-- end top bar -->
         
         <!-- logo and search -->
-            <div class="logo-search">
-                <img src="image/logo.gif"/>
-                <div>
-                    <input  type="text">
-                    <input type="image" src="submit.gif" alt="Submit">
-                </div>
-                <a><img src ="" />GIỎ HÀNG: 0 item <img src ="" /></a>
+            <div class="header-logo-search">
+				<div class = "sub-container">
+					<div class="logo">
+						<img src="image/logo.gif"/>
+					</div>
+					<div class="search">
+						<input class="input-search"  type="text" placeholder="Tìm kiếm sản phẩm ..."></input>
+						<button class = "btn btn-search">
+							<i class="fa fa-search"></i>
+						</button>
+					</div>
+					<div class="shop-card">
+						<a><img src ="" />GIỎ HÀNG: 0 item <img src ="" /></a>
+					</div>
+				</div>
             </div>
         <!-- end logo and search -->
         </header>
         
         <!-- navigator bar-->
-        <nav>
-            <ul>
-                <li><a href="#">Trang chủ<a></li>
-                <li><a href="#">Sản phẩm<a></li>
-                <li><a href="#">Khuyến mãi<a></li>
-                <li><a href="#">Giới thiệu<a></li>
-                <li><a href="#">Tin tức<a></li>
-                <li><a href="#">Liên hệ<a></li>
-            </ul>
-        </nav>
+		<div class="navigator-bar">
+			<nav class = "sub-container">
+				<ul class= "menu">
+					<li><a href="#">Trang chủ</a></li>
+					<li><a href="#">Sản phẩm</a></li>
+					<li><a href="#">Khuyến mãi</a></li>
+					<li><a href="#">Giới thiệu</a></li>
+					<li><a href="#">Tin tức</a></li>
+					<li><a href="#">Liên hệ</a></li>
+				</ul>
+				<p class="hot-line">Hotline : 0942.691.366 - 0164.980.2916</p>
+			</nav>
+			
+		</div>
         <!-- end navigator bar-->
         
         <!-- service div -->
-        <div>
-            <div>
-                <img src="" alt="image"/>
-                <h3>Miễn phí vận chuyển</h3>
-                Miễn phí Ship Đơn hàng > 200k
+        <div class="sub-container">
+            <div class="free-ship sp-banner">
+                <img class="sp-banner-icon" src="" alt="image"/>
+				<div class="sp-banner-content">
+					<h3>Miễn phí vận chuyển</h3>
+					Miễn phí Ship Đơn hàng > 200k
+				</div>
             </div>
-            <div>
-                <img src="" alt="image"/>
-                <h3>Đặt hàng online</h3>
-                Đặt hàng dễ dàng trên hệ thống
+            <div class="order-online sp-banner">
+                <img class="sp-banner-icon" src="" alt="image"/>
+				<div class="sp-banner-content">
+					<h3>Đặt hàng online</h3>
+					Đặt hàng dễ dàng trên hệ thống
+				</div>
             </div>
-            <div>
-                <img src="" alt="image"/>
-                <h3>Đổi Trả Hàng</h3>
-                Chúng tôi đổi trả hàng cho đến khi bạn hài lòng.
+            <div class= "change-return sp-banner">
+                <img class="sp-banner-icon" src="" alt="image"/>
+				<div class="sp-banner-content">
+					<h3>Đổi Trả Hàng</h3>
+					Chúng tôi đổi trả hàng cho đến khi bạn hài lòng.
+				</div>
             </div>
         </div>
         <!-- end service div -->
-        
-        <div>
+        <div class="jum-space"></div>
+        <div class="sub-container">
             <!-- left menu nav -->
-            <aside>
-                <nav>
+            <aside class="content-menu">
+                <nav class="pro-category-menu">
                     <ul>
                         <li><a href="#default">Danh Mục Sản Phẩm</a></li>
                         <li><a href="#sm">ÁO SƠ MI NỮ</a></li>
@@ -77,28 +106,34 @@
                     </ul>
                 </nav>
                 <!-- -->
-                <nav>
+                <nav class="best-sell-menu">
                     <ul>
                         <li><a href="#default">Sản phẩm Bán Chạy</a></li>
                         <li>
                             <div>
-                                <img src="image/timthumb_002.jpg" alt="image"/>
-                                <p>Áo khoác nữ nón tai gấu</p>
-                                <h3>75.000 Đ</h3>
+                                <img class="best-sell-menu-icon" src="image/timthumb_002.jpg" alt="image"/>
+								<div class="best-sell-menu-content">
+									<p>Áo khoác nữ nón tai gấu</p>
+									<h3>75.000 Đ</h3>
+								</div>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <img src="image/timthumb_003.jpg" alt="image"/>
-                                <p>Áo khoác nữ nón tai gấu</p>
-                                <h3>75.000 Đ</h3>
+                                <img class="best-sell-menu-icon" src="image/timthumb_003.jpg" alt="image"/>
+                                <div class="best-sell-menu-content">
+									<p>Áo khoác nữ nón tai gấu</p>
+									<h3>75.000 Đ</h3>
+								</div>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <img src="image/timthumb_004.jpg" alt="image"/>
-                                <p>Áo khoác nữ nón tai gấu</p>
-                                <h3>75.000 Đ</h3>
+                                <img class="best-sell-menu-icon" src="image/timthumb_004.jpg" alt="image"/>
+                                <div class="best-sell-menu-content">
+									<p>Áo khoác nữ nón tai gấu</p>
+									<h3>75.000 Đ</h3>
+								</div>
                             </div>  
                         </li>
                     </ul>
@@ -151,8 +186,8 @@
                 </nav>
                 <!-- -->
                 <div>
-                    <img src="image/how-fashion-work-9.jpg" alt="image"/>
-                    <img src="image/12.jpg" alt="image"/>
+                    <img src="image/how-fashion-work-9.jpg" alt="image" height="277 px" width="100%"/>
+                    <img src="image/12.jpg" alt="image" height="246 px" width="100%"/>
                 </div>
                 <!-- -->
                 <div>
@@ -167,7 +202,7 @@
                 </div>
             </aside>
             <!-- end left menu nav -->
-            <article>
+            <article class="content-main">
                 <img src="image/fashion-banner02.jpg" alt="image"/>
                 <div>
                     <h3>

@@ -1,0 +1,44 @@
+.l-header{
+	
+}
+.l-header .header-top-bar{
+	padding: 5px 0px;
+	background: #666;
+}
+
+	.header-top-bar .sub-container .header-contact{
+		float: left;
+	}
+
+	.header-top-bar .sub-container .header-link-shop-card{
+		position: absolute;
+		right: 0px;
+	}
+.l-header  .header-logo-search{
+	padding: 10px 0px;
+	line-height: 70px;
+}
+	.header-logo-search .sub-container .logo{
+		float: left;
+		width: 30%;
+	}
+	.header-logo-search .sub-container .search{
+		float: left;
+		width: 47%;
+	}
+		.search .input-search{
+			background: rgba(210, 201, 207, 0.26);
+			float:left;
+			height:2em;
+			padding: 4px 18px;
+		}
+		.search .btn-search{
+			padding: 0 10px;
+			background: #EA028A;
+		}
+	.header-logo-search .sub-container .shop-card{
+		position: absolute;
+		right: 0px;
+		
+	}
+

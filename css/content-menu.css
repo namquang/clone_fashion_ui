@@ -1,0 +1,44 @@
+.pro-category-menu ul {
+  background: #666;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+}
+.pro-category-menu  li {
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 0 1em;
+}
+.pro-category-menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: block;
+}
+.pro-category-menu li:hover {
+  background: #CDE2CD;
+}
+
+.best-sell-menu ul {
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+}
+
+.best-sell-menu li {
+  width: auto;
+  height: 10em;
+  line-height: 20px;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 0 1em;
+}
+
+.best-sell-menu .best-sell-menu-icon{
+	float: left;
+}
+
+.best-sell-menu .best-sell-menu-content{
+	
+}

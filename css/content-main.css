@@ -1,0 +1,72 @@
+.navigator-bar{
+	background-color:#000;
+}
+
+.navigator-bar .sub-container .menu{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+
+.navigator-bar .sub-container .menu li {
+	float: left;
+}
+
+.navigator-bar .sub-container .menu li a {
+	text-decoration: none;
+	float: left;
+	background: #000;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	border:0;
+	width: 100%;
+	text-transform: uppercase;
+	height: 38px;
+	padding: 5px 10px;
+}
+
+.navigator-bar .sub-container .hot-line{
+	position: absolute;
+	right:0px;
+}
+
+.sp-banner {
+	width:26em;
+}
+
+.sp-banner .sp-banner-icon{
+	float: left;
+}
+
+.sp-banner .sp-banner-content{
+	
+}
+
+.free-ship{
+	float: left;
+}
+
+.order-online{
+	float: left;
+}
+
+.change-return{
+	float: left;
+}
+
+.container .jum-space{
+	height:3em;
+}
+
+.container .sub-container .content-menu{
+	float: left;
+	width: 19em;
+}
+
+.container .sub-container .content-main{
+	width: 64em;
+	float: left;
+	margin-left: 2em;
+}
