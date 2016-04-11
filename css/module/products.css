@@ -1,0 +1,38 @@
+.product-title {
+	display: block;
+    font-family: CalibriBold;
+    line-height: 20px !important;
+    text-transform: uppercase;
+    word-wrap: break-word;
+	color: #666;
+}
+
+.group-icon-product {
+	visibility: hidden;
+}
+
+.product-large { 
+	width: 13.5em;
+	float: left;
+	text-align: center;
+}
+
+.product-name {
+	padding: 10px 0;
+	color: #444;
+	font-size: 16px;
+	font-family: CalibriBold;
+	text-decoration: none;
+}
+
+.product-large-img {
+	border-bottom: 1px solid #666;
+}
+
+.price-product-large {
+	
+}
+
+.price-product-large {
+	
+}

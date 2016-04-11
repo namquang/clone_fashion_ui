@@ -1,15 +1,15 @@
-.best-sell-menu ul {
+.news-menu ul {
   text-align: left;
 }
 
-.best-sell-menu ul li:not(:first-child){
-  height: 7em;
+.news-menu ul li:not(:first-child){
+  height: 10em;
   line-height: 20px;
   border-bottom: 1px solid #e8e8e8;
   margin:1em 0 0 1em;
 }
 
-.best-sell-menu ul li:first-child {
+.news-menu ul li:first-child {
   background: #c30374;
   height: 40px;
   line-height: 40px;
@@ -17,18 +17,10 @@
   text-transform: uppercase;
 }
 
-.best-sell-menu ul li  a {
+.news-menu ul li  a {
   text-decoration: none;
 }
 
-.best-sell-menu ul  li:first-child  a {
+.news-menu ul  li:first-child  a {
   color: white;
-}
-
-.best-sell-menu-icon{
-	float: left;
-}
-
-.best-sell-menu-content{
-	
 }

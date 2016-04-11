@@ -15,6 +15,20 @@
     line-height: 0;
 }
 
+/* cont div product-large-list */
+.new-product-large-list{
+	margin: 1em 0;
+}
+.new-product-large-list::after{
+    clear: both;
+}
+
+.new-product-large-list::before, .new-product-large-list::after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+/* end */
 .navigator-bar{
 	background-color:#000;
 }
