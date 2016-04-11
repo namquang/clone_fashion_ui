@@ -1,0 +1,29 @@
+.pro-category-menu ul {
+  background: #f4f4f4;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.pro-category-menu  li {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #666;
+}
+
+.pro-category-menu li a {
+  text-decoration: none;
+  color: #d60202;
+  padding-left: 2em;
+}
+
+.pro-category-menu li a:hover {
+  color: #08c;
+}
+
+.pro-category-menu li:first-child {
+  background: #c30374;
+}
+
+.pro-category-menu li:first-child  a {
+  color: white;
+}

@@ -1,0 +1,34 @@
+.best-sell-menu ul {
+  text-align: left;
+}
+
+.best-sell-menu li :not(:first-child){
+  height: 8em;
+  line-height: 20px;
+  border-bottom: 1px solid #e8e8e8;
+  padding-left: 1em;
+}
+
+.best-sell-menu li:first-child {
+  background: #c30374;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 1em;
+  text-transform: uppercase;
+}
+
+.best-sell-menu li  a {
+  text-decoration: none;
+}
+
+.best-sell-menu  li:first-child  a {
+  color: white;
+}
+
+.best-sell-menu-icon{
+	float: left;
+}
+
+.best-sell-menu-content{
+	
+}

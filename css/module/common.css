@@ -1,0 +1,11 @@
+.input-search {
+			background: rgba(210, 201, 207, 0.26);
+			float: left;
+			height: 2em;
+			padding: 4px 18px;
+		}
+		
+.btn-search {
+			padding: 0 10px;
+			background: #EA028A;
+		}

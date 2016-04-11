@@ -6,23 +6,6 @@ body{
     background-color: #ffffff;
 }
 
-.sub-container{
-	width:85em;
-	max-width:85em;
-	margin:0px auto;
-	position:relative;
-}
-
-.sub-container::after{
-    clear: both;
-}
-
-.sub-container::before, .sub-container::after {
-    content: "";
-    display: table;
-    line-height: 0;
-}
-
 .btn{
 	margin: 0;
 	box-shadow: none;
