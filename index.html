@@ -7,13 +7,13 @@
 	<link rel="stylesheet" type="text/css" href="css/content-main.css">
 	<link rel="stylesheet" type="text/css" href="css/layout/header.css">
 	<link rel="stylesheet" type="text/css" href="css/layout/main.css">
+	<link rel="stylesheet" type="text/css" href="css/layout/menu.css">
 	<link rel="stylesheet" type="text/css" href="css/module/category.css">
 	<link rel="stylesheet" type="text/css" href="css/module/best-sell.css">
 	<link rel="stylesheet" type="text/css" href="css/module/news.css">
 	<link rel="stylesheet" type="text/css" href="css/module/products.css">
 	<link rel="stylesheet" type="text/css" href="css/module/common.css">
-	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome/icon-awesome.css">
 </head>
 <body>
     <div class="container">
@@ -22,13 +22,13 @@
             <div class="header-top-bar">
 				<div class = "sub-container">
 					<div class="header-contact">
-						<a href="#"><img src="image/phone-24.png" alt="phoneimage"/>Điện thoại: 0942.691.366</a>
+						<a class="icon-phone-number" href="#"><img src="image/phone-24.png" alt="phoneimage"/>Điện thoại: 0942.691.366</a>
 					</div>
-					<div class="header-link-shop-card">
-						<a class = "link" href="#" >Sản phẩm bạn thích</a>
-						<a class = "link" href="#" >Giỏ hàng</a>
-						<a class = "link" href="#" >Kiểm tra</a>
-					</div>
+					<ul class="header-link-shop-card">
+						<li><a class="link " href="#" >Sản phẩm bạn thích</a></li>
+						<li><a class="link " href="#" >Giỏ hàng</a></li>
+						<li><a class="link " href="#" >Kiểm tra</a></li>
+					</ul>
 				</div>
             </div>
         <!-- end top bar -->
@@ -40,9 +40,9 @@
 						<img src="image/logo.gif"/>
 					</div>
 					<div class="search">
-						<input class="input-search"  type="text" placeholder="Tìm kiếm sản phẩm ..."></input>
+						<input class="textbox input-search"  type="text" placeholder="Tìm kiếm sản phẩm ..."></input>
 						<button class = "btn btn-search">
-							<i class="fa fa-search"></i>
+							<i class="icon-search"></i>
 						</button>
 					</div>
 					<div class="shop-card">
@@ -56,7 +56,7 @@
         <!-- navigator bar-->
 		<div class="navigator-bar">
 			<nav class = "sub-container">
-				<ul class= "menu">
+				<ul class= "menu-main">
 					<li><a href="#">Trang chủ</a></li>
 					<li><a href="#">Sản phẩm</a></li>
 					<li><a href="#">Khuyến mãi</a></li>
@@ -72,7 +72,7 @@
         <!-- service div -->
         <div class="sub-container">
             <div class="free-ship sp-banner">
-                <img class="sp-banner-icon" src="" alt="image"/>
+                <i class="icon-struct"></i>
 				<div class="sp-banner-content">
 					<h3>Miễn phí vận chuyển</h3>
 					Miễn phí Ship Đơn hàng > 200k
@@ -208,12 +208,12 @@
             </aside>
             <!-- end left menu nav -->
             <article class="content-main">
-                <img src="image/fashion-banner02.jpg" alt="image"/>
+                <img src="image/fashion-banner02.jpg" alt="image" width="100%"/>
                 <div class="new-product-large-list">
                     <h3 class="product-title">
                         <span>Sản phẩm Mới Nhất</span>
                     </h3>
-                    <div class="product-large">
+                    <div class="product-large carousel-item first">
                             <div class="product-large-img">
                                 <img src="image/image_sp1.jpg" alt="image"/>
                                 <div class="group-icon-product">
@@ -224,23 +224,21 @@
 								 <a class="product-name" href="abc">Bộ Đồ Ngộ Nghĩnh</a>
                             </div>
                             <div class="price-product-large">
-                                <p class="price-new">
-                                    <span>15.000 Đ</span>
-                                </p>
-                                <p class="price-old">
-                                    <span>22.000 Đ</span>
+                                 <p>
+                                    <span class="price-new"> 15.000 Đ</span>
+                                    <span class="price-old">22.000 Đ</span>
                                 </p>
                             </div>
                             <div class="product-rating">
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
                             </div>
                     </div>
                     <!-- -->
-                    <div class="product-large">
+                   <div class="product-large carousel-item">
                             <div class="product-large-img">
                                 <img src="image/image_sp1.jpg" alt="image"/>
                                 <div class="group-icon-product">
@@ -248,26 +246,24 @@
                                     <i class="icon-view-detail"></i>
                                     <i class="icon-add-whell"></i>
                                 </div>
+								 <a class="product-name" href="abc">Bộ Đồ Ngộ Nghĩnh</a>
                             </div>
-                            <p>Bộ Đồ Ngộ Nghĩnh</p>
                             <div class="price-product-large">
-                                <p class="price-new">
-                                    <span>15.000 Đ</span>
-                                </p>
-                                <p class="price-old">
-                                    <span>22.000 Đ</span>
+                                 <p>
+                                    <span class="price-new"> 15.000 Đ</span>
+                                    <span class="price-old">22.000 Đ</span>
                                 </p>
                             </div>
                             <div class="product-rating">
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
                             </div>
                     </div>
                     <!-- -->
-                    <div class="product-large">
+                    <div class="product-large carousel-item">
                             <div class="product-large-img">
                                 <img src="image/image_sp1.jpg" alt="image"/>
                                 <div class="group-icon-product">
@@ -275,26 +271,24 @@
                                     <i class="icon-view-detail"></i>
                                     <i class="icon-add-whell"></i>
                                 </div>
+								 <a class="product-name" href="abc">Bộ Đồ Ngộ Nghĩnh</a>
                             </div>
-                            <p>Bộ Đồ Ngộ Nghĩnh</p>
                             <div class="price-product-large">
-                                <p class="price-new">
-                                    <span>15.000 Đ</span>
-                                </p>
-                                <p class="price-old">
-                                    <span>22.000 Đ</span>
+                                 <p>
+                                    <span class="price-new"> 15.000 Đ</span>
+                                    <span class="price-old">22.000 Đ</span>
                                 </p>
                             </div>
                             <div class="product-rating">
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
                             </div>
                     </div>
                     <!-- -->
-                    <div class="product-large">
+                    <div class="product-large carousel-item">
                             <div class="product-large-img">
                                 <img src="image/image_sp1.jpg" alt="image"/>
                                 <div class="group-icon-product">
@@ -302,31 +296,29 @@
                                     <i class="icon-view-detail"></i>
                                     <i class="icon-add-whell"></i>
                                 </div>
+								 <a class="product-name" href="abc">Bộ Đồ Ngộ Nghĩnh</a>
                             </div>
-                            <p>Bộ Đồ Ngộ Nghĩnh</p>
                             <div class="price-product-large">
-                                <p class="price-new">
-                                    <span>15.000 Đ</span>
-                                </p>
-                                <p class="price-old">
-                                    <span>22.000 Đ</span>
+                                 <p>
+                                    <span class="price-new"> 15.000 Đ</span>
+                                    <span class="price-old">22.000 Đ</span>
                                 </p>
                             </div>
                             <div class="product-rating">
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
                             </div>
                     </div>
                 </div>
-                <img src="image/banner_event_2jrjin01n224j.jpg" alt="image"/>
-                 <div>
-                    <h3>
+                <img src="image/banner_event_2jrjin01n224j.jpg" alt="image" width="100%"/>
+                <div class="new-product-large-list">
+                    <h3 class="product-title">
                         <span>Sản phẩm Demo 2</span>
                     </h3>
-                    <div class="product-large">
+                    <div class="product-large product-demo-item first">
                             <div class="product-large-img">
                                 <img src="image/image_sp1.jpg" alt="image"/>
                                 <div class="group-icon-product">
@@ -334,26 +326,24 @@
                                     <i class="icon-view-detail"></i>
                                     <i class="icon-add-whell"></i>
                                 </div>
+								 <a class="product-name" href="abc">Bộ Đồ Ngộ Nghĩnh</a>
                             </div>
-                            <p>Bộ Đồ Ngộ Nghĩnh</p>
                             <div class="price-product-large">
-                                <p class="price-new">
-                                    <span>15.000 Đ</span>
-                                </p>
-                                <p class="price-old">
-                                    <span>22.000 Đ</span>
+                                 <p>
+                                    <span class="price-new"> 15.000 Đ</span>
+                                    <span class="price-old">22.000 Đ</span>
                                 </p>
                             </div>
                             <div class="product-rating">
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
                             </div>
                     </div>
                     <!-- -->
-                    <div class="product-large">
+                   <div class="product-large product-demo-item">
                             <div class="product-large-img">
                                 <img src="image/image_sp1.jpg" alt="image"/>
                                 <div class="group-icon-product">
@@ -361,26 +351,24 @@
                                     <i class="icon-view-detail"></i>
                                     <i class="icon-add-whell"></i>
                                 </div>
+								 <a class="product-name" href="abc">Bộ Đồ Ngộ Nghĩnh</a>
                             </div>
-                            <p>Bộ Đồ Ngộ Nghĩnh</p>
                             <div class="price-product-large">
-                                <p class="price-new">
-                                    <span>15.000 Đ</span>
-                                </p>
-                                <p class="price-old">
-                                    <span>22.000 Đ</span>
+                                 <p>
+                                    <span class="price-new"> 15.000 Đ</span>
+                                    <span class="price-old">22.000 Đ</span>
                                 </p>
                             </div>
                             <div class="product-rating">
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
                             </div>
                     </div>
                     <!-- -->
-                    <div class="product-large">
+                   <div class="product-large product-demo-item">
                             <div class="product-large-img">
                                 <img src="image/image_sp1.jpg" alt="image"/>
                                 <div class="group-icon-product">
@@ -388,26 +376,24 @@
                                     <i class="icon-view-detail"></i>
                                     <i class="icon-add-whell"></i>
                                 </div>
+								 <a class="product-name" href="abc">Bộ Đồ Ngộ Nghĩnh</a>
                             </div>
-                            <p>Bộ Đồ Ngộ Nghĩnh</p>
                             <div class="price-product-large">
-                                <p class="price-new">
-                                    <span>15.000 Đ</span>
-                                </p>
-                                <p class="price-old">
-                                    <span>22.000 Đ</span>
+                                 <p>
+                                    <span class="price-new"> 15.000 Đ</span>
+                                    <span class="price-old">22.000 Đ</span>
                                 </p>
                             </div>
                             <div class="product-rating">
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
                             </div>
                     </div>
                     <!-- -->
-                    <div class="product-large">
+                   <div class="product-large product-demo-item">
                             <div class="product-large-img">
                                 <img src="image/image_sp1.jpg" alt="image"/>
                                 <div class="group-icon-product">
@@ -415,26 +401,24 @@
                                     <i class="icon-view-detail"></i>
                                     <i class="icon-add-whell"></i>
                                 </div>
+								 <a class="product-name" href="abc">Bộ Đồ Ngộ Nghĩnh</a>
                             </div>
-                            <p>Bộ Đồ Ngộ Nghĩnh</p>
                             <div class="price-product-large">
-                                <p class="price-new">
-                                    <span>15.000 Đ</span>
-                                </p>
-                                <p class="price-old">
-                                    <span>22.000 Đ</span>
+                                 <p>
+                                    <span class="price-new"> 15.000 Đ</span>
+                                    <span class="price-old">22.000 Đ</span>
                                 </p>
                             </div>
                             <div class="product-rating">
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
                             </div>
                     </div>
 					
-                    <div class="product-large">
+                   <div class="product-large product-demo-item first">
                             <div class="product-large-img">
                                 <img src="image/image_sp1.jpg" alt="image"/>
                                 <div class="group-icon-product">
@@ -442,26 +426,24 @@
                                     <i class="icon-view-detail"></i>
                                     <i class="icon-add-whell"></i>
                                 </div>
+								 <a class="product-name" href="abc">Bộ Đồ Ngộ Nghĩnh</a>
                             </div>
-                            <p>Bộ Đồ Ngộ Nghĩnh</p>
                             <div class="price-product-large">
-                                <p class="price-new">
-                                    <span>15.000 Đ</span>
-                                </p>
-                                <p class="price-old">
-                                    <span>22.000 Đ</span>
+                                 <p>
+                                    <span class="price-new"> 15.000 Đ</span>
+                                    <span class="price-old">22.000 Đ</span>
                                 </p>
                             </div>
                             <div class="product-rating">
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
                             </div>
                     </div>
                     <!-- -->
-                    <div class="product-large">
+                    <div class="product-large product-demo-item">
                             <div class="product-large-img">
                                 <img src="image/image_sp1.jpg" alt="image"/>
                                 <div class="group-icon-product">
@@ -469,26 +451,24 @@
                                     <i class="icon-view-detail"></i>
                                     <i class="icon-add-whell"></i>
                                 </div>
+								 <a class="product-name" href="abc">Bộ Đồ Ngộ Nghĩnh</a>
                             </div>
-                            <p>Bộ Đồ Ngộ Nghĩnh</p>
                             <div class="price-product-large">
-                                <p class="price-new">
-                                    <span>15.000 Đ</span>
-                                </p>
-                                <p class="price-old">
-                                    <span>22.000 Đ</span>
+                                 <p>
+                                    <span class="price-new"> 15.000 Đ</span>
+                                    <span class="price-old">22.000 Đ</span>
                                 </p>
                             </div>
                             <div class="product-rating">
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
                             </div>
                     </div>
                     <!-- -->
-                    <div class="product-large">
+                    <div class="product-large product-demo-item">
                             <div class="product-large-img">
                                 <img src="image/image_sp1.jpg" alt="image"/>
                                 <div class="group-icon-product">
@@ -496,26 +476,24 @@
                                     <i class="icon-view-detail"></i>
                                     <i class="icon-add-whell"></i>
                                 </div>
+								 <a class="product-name" href="abc">Bộ Đồ Ngộ Nghĩnh</a>
                             </div>
-                            <p>Bộ Đồ Ngộ Nghĩnh</p>
                             <div class="price-product-large">
-                                <p class="price-new">
-                                    <span>15.000 Đ</span>
-                                </p>
-                                <p class="price-old">
-                                    <span>22.000 Đ</span>
+                                 <p>
+                                    <span class="price-new"> 15.000 Đ</span>
+                                    <span class="price-old">22.000 Đ</span>
                                 </p>
                             </div>
                             <div class="product-rating">
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
                             </div>
                     </div>
                     <!-- -->
-                    <div class="product-large">
+                    <div class="product-large product-demo-item">
                             <div class="product-large-img">
                                 <img src="image/image_sp1.jpg" alt="image"/>
                                 <div class="group-icon-product">
@@ -523,27 +501,25 @@
                                     <i class="icon-view-detail"></i>
                                     <i class="icon-add-whell"></i>
                                 </div>
+								 <a class="product-name" href="abc">Bộ Đồ Ngộ Nghĩnh</a>
                             </div>
-                            <p>Bộ Đồ Ngộ Nghĩnh</p>
                             <div class="price-product-large">
-                                <p class="price-new">
-                                    <span>15.000 Đ</span>
-                                </p>
-                                <p class="price-old">
-                                    <span>22.000 Đ</span>
+                                 <p>
+                                    <span class="price-new"> 15.000 Đ</span>
+                                    <span class="price-old">22.000 Đ</span>
                                 </p>
                             </div>
                             <div class="product-rating">
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
-                                <i class="icon-start"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
                             </div>
                     </div>
-                <div>
-                <div>
-                    <h3>
+                </div>
+                <div class="new-product-large-list">
+                    <h3 class="product-title">
                         <span>Sản phẩm Demo 3</span>
                     </h3>
                     <div>

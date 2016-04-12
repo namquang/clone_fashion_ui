@@ -12,27 +12,35 @@
 }
 
 .product-large { 
-	width: 13.5em;
-	float: left;
 	text-align: center;
 }
 
 .product-name {
-	padding: 10px 0;
 	color: #444;
 	font-size: 16px;
 	font-family: CalibriBold;
+	padding: 10px 0;
 	text-decoration: none;
 }
 
 .product-large-img {
-	border-bottom: 1px solid #666;
+	border-bottom: 1px solid #888;
+	padding-bottom: 5px;
 }
 
 .price-product-large {
-	
+	padding-top: 20px;
 }
 
-.price-product-large {
-	
+
+.price-new {
+	font-size: 20px;
+    font-weight: normal !important;
+    color: #CA0000 !important;
 }
+
+.price-old {
+	text-decoration: line-through;
+	font-size: 14px;
+	color: #888;
+} 

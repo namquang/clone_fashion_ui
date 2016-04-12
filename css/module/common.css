@@ -1,11 +1,33 @@
-.input-search {
-			background: rgba(210, 201, 207, 0.26);
-			float: left;
-			height: 2em;
-			padding: 4px 18px;
-		}
+.textbox {
+	background: rgba(210, 201, 207, 0.26);
+}
 		
-.btn-search {
-			padding: 0 10px;
-			background: #EA028A;
-		}
+.btn {
+	background-color: #ea028a;
+    border: medium none;
+    cursor: pointer;
+}
+
+.icon-phone-number {
+	font-size: 16px;
+	vertical-align: middle;
+	color: #666;
+	text-decoration: none;
+	
+}
+.link {
+	text-decoration: none;
+	color: #d60202;
+}
+
+.link:hover {
+  color: #08c;
+}
+
+.first {
+	margin-left: 0 !important; 
+}
+
+.last { 
+	margin-right: 0 !important;
+}

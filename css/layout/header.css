@@ -1,9 +1,10 @@
 .l-header{
 	
 }
+
 .l-header .header-top-bar {
-	padding: 5px 0px;
-	background: #666;
+	padding: 7px 0px;
+	background: #ddd none repeat scroll 0 0;
 }
 
 	.header-top-bar .sub-container .header-contact {
@@ -14,6 +15,12 @@
 		position: absolute;
 		right: 0px;
 	}
+	
+	.header-link-shop-card  li{
+		float: left;
+		margin-right:1em;
+	}
+	
 .l-header  .header-logo-search {
 	padding: 10px 0px;
 	line-height: 70px;
@@ -26,11 +33,23 @@
 	.header-logo-search .sub-container .search {
 		float: left;
 		width: 47%;
+		margin: 2.5em 0 0 3em;	
 	}
-	
+		.search .input-search {			
+			height: 2.7em;
+			width: 20em;
+			float: left;
+			padding: 0.15em 2em;
+		}
+		.search .btn-search {
+			height: 3em;
+			width: 5em;
+			float: left;
+		}
+		
 	.header-logo-search .sub-container .shop-card {
 		position: absolute;
 		right: 0px;
-		
+		margin-top: 2em;	
 	}
 

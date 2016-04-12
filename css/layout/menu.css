@@ -1,0 +1,58 @@
+.navigator-bar{
+	background-color:#000;
+}
+
+.navigator-bar .sub-container .menu-main{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+
+.navigator-bar .sub-container .menu-main li {
+	float: left;
+}
+
+.navigator-bar .sub-container .menu-main li a {
+	text-decoration: none;
+	float: left;
+	background: #000;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	border:0;
+	width: 100%;
+	text-transform: uppercase;
+	height: 38px;
+	padding: 5px 10px;
+}
+
+.navigator-bar .sub-container .hot-line{
+	position: absolute;
+	right:0;
+	top: 1em;
+}
+
+.sub-container .sp-banner {
+	width:26em;
+}
+
+	.sp-banner .sp-banner-icon{
+		float: left;
+	}
+
+	.sp-banner .sp-banner-content{
+		
+	}
+
+.free-ship{
+	float: left;
+}
+
+.order-online{
+	float: left;
+}
+
+.change-return{
+	float: left;
+}
