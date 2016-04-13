@@ -3,9 +3,8 @@
 }
 
 .news-menu ul li:not(:first-child){
-  height: 10em;
+  height: 12em;
   line-height: 20px;
-  border-bottom: 1px solid #e8e8e8;
   margin:1em 0 0 1em;
 }
 

@@ -7,14 +7,33 @@
     border: medium none;
     cursor: pointer;
 }
+.btn:hover {
+	background-color: #08c;
+}
 
 .icon-phone-number {
-	font-size: 16px;
-	vertical-align: middle;
+	font-size: 14px;
 	color: #666;
 	text-decoration: none;
-	
 }
+
+.icon-phone-number img {
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.btn-cart {
+		background: #ea028a;
+		text-align: center;
+		width: 10px;
+		height: 10px;
+		padding: 7px 15px 7px 15px;
+		margin: 5px;
+		-moz-border-radius: 100px;
+		-webkit-border-radius: 100px;
+		border-radius: 100px;
+}
+
 .link {
 	text-decoration: none;
 	color: #d60202;

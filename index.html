@@ -8,11 +8,13 @@
 	<link rel="stylesheet" type="text/css" href="css/layout/header.css">
 	<link rel="stylesheet" type="text/css" href="css/layout/main.css">
 	<link rel="stylesheet" type="text/css" href="css/layout/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/layout/aside.css">
 	<link rel="stylesheet" type="text/css" href="css/module/category.css">
 	<link rel="stylesheet" type="text/css" href="css/module/best-sell.css">
 	<link rel="stylesheet" type="text/css" href="css/module/news.css">
 	<link rel="stylesheet" type="text/css" href="css/module/products.css">
 	<link rel="stylesheet" type="text/css" href="css/module/common.css">
+    <link rel="stylesheet" type="text/css" href="css/module/menu.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome/icon-awesome.css">
 </head>
 <body>
@@ -42,11 +44,11 @@
 					<div class="search">
 						<input class="textbox input-search"  type="text" placeholder="Tìm kiếm sản phẩm ..."></input>
 						<button class = "btn btn-search">
-							<i class="icon-search"></i>
+							<i class="icon-btn-search"></i>
 						</button>
 					</div>
 					<div class="shop-card">
-						<a><img src ="" />GIỎ HÀNG: 0 item <img src ="" /></a>
+						<a><a class="btn-cart"><i class="icon-cart"></i></a>GIỎ HÀNG: 0 item <img src ="" /></a>
 					</div>
 				</div>
             </div>
@@ -57,12 +59,12 @@
 		<div class="navigator-bar">
 			<nav class = "sub-container">
 				<ul class= "menu-main">
-					<li><a href="#">Trang chủ</a></li>
-					<li><a href="#">Sản phẩm</a></li>
-					<li><a href="#">Khuyến mãi</a></li>
-					<li><a href="#">Giới thiệu</a></li>
-					<li><a href="#">Tin tức</a></li>
-					<li><a href="#">Liên hệ</a></li>
+					<li class="menu-item"><a href="#" class="menu-item">Trang chủ</a></li>
+					<li class="menu-item"><a href="#" class="menu-item">Sản phẩm</a></li>
+					<li class="menu-item"><a href="#" class="menu-item">Khuyến mãi</a></li>
+					<li class="menu-item"><a href="#" class="menu-item">Giới thiệu</a></li>
+					<li class="menu-item"><a href="#" class="menu-item">Tin tức</a></li>
+					<li class="menu-item"><a href="#" class="menu-item">Liên hệ</a></li>
 				</ul>
 				<p class="hot-line">Hotline : 0942.691.366 - 0164.980.2916</p>
 			</nav>		
@@ -71,22 +73,22 @@
         
         <!-- service div -->
         <div class="sub-container">
-            <div class="free-ship sp-banner">
+            <div class="sp-banner banner-item">
                 <i class="icon-struct"></i>
 				<div class="sp-banner-content">
 					<h3>Miễn phí vận chuyển</h3>
 					Miễn phí Ship Đơn hàng > 200k
 				</div>
             </div>
-            <div class="order-online sp-banner">
-                <img class="sp-banner-icon" src="" alt="image"/>
+            <div class="banner-item sp-banner">
+                <i class="icon-laptop"></i>
 				<div class="sp-banner-content">
 					<h3>Đặt hàng online</h3>
 					Đặt hàng dễ dàng trên hệ thống
 				</div>
             </div>
-            <div class= "change-return sp-banner">
-                <img class="sp-banner-icon" src="" alt="image"/>
+            <div class= "banner-item sp-banner">
+                <i class="icon-usd"></i>
 				<div class="sp-banner-content">
 					<h3>Đổi Trả Hàng</h3>
 					Chúng tôi đổi trả hàng cho đến khi bạn hài lòng.
@@ -115,29 +117,30 @@
                     <ul>
                         <li><a href="#default">Sản phẩm Bán Chạy</a></li>
                         <li>
-                            <div>
+                            <div class="best-sell-item">
                                 <img class="best-sell-menu-icon" src="image/timthumb_002.jpg" alt="image"/>
 								<div class="best-sell-menu-content">
-									<p>Áo khoác nữ nón tai gấu</p>
-									<h3>75.000 Đ</h3>
+									<p class="explain-text">Áo khoác nữ nón tai gấu</p>
+                                    <p class="price-old">25.000 Đ</p>
+									<p class="price-new">20.000 Đ</p>
 								</div>
                             </div>
                         </li>
                         <li>
-                            <div>
+                            <div class="best-sell-item">
                                 <img class="best-sell-menu-icon" src="image/timthumb_003.jpg" alt="image"/>
                                 <div class="best-sell-menu-content">
 									<p>Áo khoác nữ nón tai gấu</p>
-									<h3>75.000 Đ</h3>
+									<p class="price-new">35.000 Đ</p>
 								</div>
                             </div>
                         </li>
                         <li>
-                            <div>
+                            <div class="best-sell-item">
                                 <img class="best-sell-menu-icon" src="image/timthumb_004.jpg" alt="image"/>
                                 <div class="best-sell-menu-content">
 									<p>Áo khoác nữ nón tai gấu</p>
-									<h3>75.000 Đ</h3>
+									<p class="price-new">40.000 Đ</p>
 								</div>
                             </div>  
                         </li>
@@ -149,27 +152,27 @@
                         <li><a href="#default">Tin tức cập nhật</a></li>
                         <!-- -->
                         <li>
-                            <div>
-                                <p class="news-menu-title">7 bí quyết để trở thành một fashion blogger thực thụ</p>
-                                <div class="news-menu-content">
-                                    <img src="image/banner-4_68x68.jpg" alt="image"/>
-                                    <p>Loại rau này gần giống cà rốt nhưng có màu sáng và ngọt hơn, hương...</p>
-                                </div>
-                            </div>
-                        </li>
-                        <!-- -->
-                        <li>
-                            <div>
+                             <div class="news-item">
                                 <p class="news-menu-title">Kiếm tiền tỷ từ việc "chém gió" trên mạng</p>
                                 <div class="news-menu-content">
-                                    <img src="image/cxalg1-i_68x68.jpg" alt="image"/>
-                                    <p>Loại rau này gần giống cà rốt nhưng có màu sáng và ngọt hơn, hương...</p>
+                                    <img class="news-icon" src="image/cxalg1-i_68x68.jpg" alt="image"/>
+                                    <p class="news-explain">Loại rau này gần giống cà rốt nhưng có màu sáng và ngọt hơn, hương...</p>
                                 </div>
                             </div>
                         </li>
                         <!-- -->
                         <li>
-                            <div>
+                            <div class="news-item">
+                                <p class="news-menu-title">Kiếm tiền tỷ từ việc "chém gió" trên mạng</p>
+                                <div class="news-menu-content">
+                                    <img class="news-icon" src="image/cxalg1-i_68x68.jpg" alt="image"/>
+                                    <p class="news-explain">Loại rau này gần giống cà rốt nhưng có màu sáng và ngọt hơn, hương...</p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- -->
+                        <li>
+                            <div class="news-item">
                                 <p class="news-menu-title">Khách hàng đánh nhau chí tử trong ngày thứ 6 đen tối</p>
                                  <div class="news-menu-content">
                                     <img src="image/fashion-banner02_68x68.jpg" alt="image"/>
@@ -179,7 +182,7 @@
                         </li>
                         <!-- -->
                         <li>
-                            <div>
+                            <div class="news-item">
                                 <p class="news-menu-title">Gặp gỡ nhà thiết kế xinh đẹp Vân Anh Scarlet.</p>
                                  <div class="news-menu-content">
                                     <img src="image/1451278321-van-anh-scarlet--2-_68x68.jpg" alt="image"/>
@@ -240,7 +243,7 @@
                     <!-- -->
                    <div class="product-large carousel-item">
                             <div class="product-large-img">
-                                <img src="image/image_sp1.jpg" alt="image"/>
+                                <img src="image/image_sp2.jpg" alt="image"/>
                                 <div class="group-icon-product">
                                     <i class="icon-add-cart"></i>
                                     <i class="icon-view-detail"></i>
@@ -265,7 +268,7 @@
                     <!-- -->
                     <div class="product-large carousel-item">
                             <div class="product-large-img">
-                                <img src="image/image_sp1.jpg" alt="image"/>
+                                <img src="image/image_sp3.jpg" alt="image"/>
                                 <div class="group-icon-product">
                                     <i class="icon-add-cart"></i>
                                     <i class="icon-view-detail"></i>
@@ -290,7 +293,7 @@
                     <!-- -->
                     <div class="product-large carousel-item">
                             <div class="product-large-img">
-                                <img src="image/image_sp1.jpg" alt="image"/>
+                                <img src="image/image_sp4.jpg" alt="image"/>
                                 <div class="group-icon-product">
                                     <i class="icon-add-cart"></i>
                                     <i class="icon-view-detail"></i>
@@ -320,7 +323,32 @@
                     </h3>
                     <div class="product-large product-demo-item first">
                             <div class="product-large-img">
-                                <img src="image/image_sp1.jpg" alt="image"/>
+                                <img src="image/image_sp4.jpg" alt="image"/>
+                                <div class="group-icon-product">
+                                    <i class="icon-add-cart"></i>
+                                    <i class="icon-view-detail"></i>
+                                    <i class="icon-add-whell"></i>
+                                </div>
+								 <a class="product-name" href="abc">Bộ Đồ Ngộ Nghĩnh</a>
+                            </div>
+                            <div class="price-product-large">
+                                 <p>
+                                    <span class="price-new"> 15.000 Đ</span>
+                                    <span class="price-old">22.000 Đ</span>
+                                </p>
+                            </div>
+                            <div class="product-rating">
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                            </div>
+                    </div>
+                    <!-- -->
+                   <div class="product-large product-demo-item">
+                            <div class="product-large-img">
+                                <img src="image/image_sp3.jpg" alt="image"/>
                                 <div class="group-icon-product">
                                     <i class="icon-add-cart"></i>
                                     <i class="icon-view-detail"></i>
@@ -370,32 +398,7 @@
                     <!-- -->
                    <div class="product-large product-demo-item">
                             <div class="product-large-img">
-                                <img src="image/image_sp1.jpg" alt="image"/>
-                                <div class="group-icon-product">
-                                    <i class="icon-add-cart"></i>
-                                    <i class="icon-view-detail"></i>
-                                    <i class="icon-add-whell"></i>
-                                </div>
-								 <a class="product-name" href="abc">Bộ Đồ Ngộ Nghĩnh</a>
-                            </div>
-                            <div class="price-product-large">
-                                 <p>
-                                    <span class="price-new"> 15.000 Đ</span>
-                                    <span class="price-old">22.000 Đ</span>
-                                </p>
-                            </div>
-                            <div class="product-rating">
-                                <i class="icon-star"></i>
-                                <i class="icon-star"></i>
-                                <i class="icon-star"></i>
-                                <i class="icon-star"></i>
-                                <i class="icon-star"></i>
-                            </div>
-                    </div>
-                    <!-- -->
-                   <div class="product-large product-demo-item">
-                            <div class="product-large-img">
-                                <img src="image/image_sp1.jpg" alt="image"/>
+                                <img src="image/image_sp2.jpg" alt="image"/>
                                 <div class="group-icon-product">
                                     <i class="icon-add-cart"></i>
                                     <i class="icon-view-detail"></i>
@@ -420,7 +423,7 @@
 					
                    <div class="product-large product-demo-item first">
                             <div class="product-large-img">
-                                <img src="image/image_sp1.jpg" alt="image"/>
+                                <img src="image/image_sp3.jpg" alt="image"/>
                                 <div class="group-icon-product">
                                     <i class="icon-add-cart"></i>
                                     <i class="icon-view-detail"></i>
@@ -445,7 +448,7 @@
                     <!-- -->
                     <div class="product-large product-demo-item">
                             <div class="product-large-img">
-                                <img src="image/image_sp1.jpg" alt="image"/>
+                                <img src="image/image_sp2.jpg" alt="image"/>
                                 <div class="group-icon-product">
                                     <i class="icon-add-cart"></i>
                                     <i class="icon-view-detail"></i>
@@ -470,7 +473,7 @@
                     <!-- -->
                     <div class="product-large product-demo-item">
                             <div class="product-large-img">
-                                <img src="image/image_sp1.jpg" alt="image"/>
+                                <img src="image/image_sp4.jpg" alt="image"/>
                                 <div class="group-icon-product">
                                     <i class="icon-add-cart"></i>
                                     <i class="icon-view-detail"></i>
@@ -525,7 +528,7 @@
                     <div>
                         <div>
                             <div>
-                                <img src="image/image_sp1.jpg" alt="image"/>
+                                <img src="image/image_sp1.jpg" alt="image" width="106.483px" height="132.25px" />
                                 <div>
                                     <i></i>
                                     <i></i>
@@ -554,7 +557,7 @@
                     <div>
                         <div>
                             <div>
-                                <img src="image/image_sp1.jpg" alt="image"/>
+                                <img src="image/image_sp1.jpg" alt="image" width="106.483px" height="132.25px" />
                                 <div>
                                     <i></i>
                                     <i></i>
@@ -583,7 +586,7 @@
                     <div>
                         <div>
                             <div>
-                                <img src="image/image_sp1.jpg" alt="image"/>
+                                <img src="image/image_sp1.jpg" alt="image" width="106.483px" height="132.25px" />
                                 <div>
                                     <i></i>
                                     <i></i>
@@ -612,7 +615,7 @@
                     <div>
                         <div>
                             <div>
-                                <img src="image/image_sp1.jpg" alt="image"/>
+                                <img src="image/image_sp1.jpg" alt="image" width="106.483px" height="132.25px" />
                                 <div>
                                     <i></i>
                                     <i></i>
@@ -640,7 +643,7 @@
                     <div>
                         <div>
                             <div>
-                                <img src="image/image_sp1.jpg" alt="image"/>
+                                <img src="image/image_sp1.jpg" alt="image" width="106.483px" height="132.25px" />
                                 <div>
                                     <i></i>
                                     <i></i>
@@ -669,7 +672,7 @@
                     <div>
                         <div>
                             <div>
-                                <img src="image/image_sp1.jpg" alt="image"/>
+                                <img src="image/image_sp1.jpg" alt="image" width="106.483px" height="132.25px" />
                                 <div>
                                     <i></i>
                                     <i></i>

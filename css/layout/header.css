@@ -22,22 +22,22 @@
 	}
 	
 .l-header  .header-logo-search {
-	padding: 10px 0px;
-	line-height: 70px;
+	padding-top: 5px;
+	line-height: 50px;
 }
 	.header-logo-search .sub-container .logo {
 		float: left;
-		width: 30%;
+		width: 38%;
 	}
 	
 	.header-logo-search .sub-container .search {
 		float: left;
-		width: 47%;
-		margin: 2.5em 0 0 3em;	
+		width: 39%;
+		margin: 2em 0 0 4em;	
 	}
 		.search .input-search {			
 			height: 2.7em;
-			width: 20em;
+			width: 18em;
 			float: left;
 			padding: 0.15em 2em;
 		}
@@ -45,6 +45,7 @@
 			height: 3em;
 			width: 5em;
 			float: left;
+			position: relative;
 		}
 		
 	.header-logo-search .sub-container .shop-card {

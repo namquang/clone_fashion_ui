@@ -1,0 +1,30 @@
+
+.best-sell-menu .best-sell-menu-icon{
+	float: left;
+
+}
+
+.best-sell-menu .best-sell-menu-content {
+	float: left;
+	overflow: auto;
+}
+
+.news-item {
+	margin-top: 10px;
+}
+
+.news-item .news-menu-title {
+
+}
+
+.news-item .news-menu-content {
+
+}
+
+.news-menu-content .news-icon {
+	float: left;
+}
+.news-menu-content .news-explain{
+	float: right;
+	word-wrap: break-word;
+}

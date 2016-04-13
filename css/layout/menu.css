@@ -4,55 +4,34 @@
 
 .navigator-bar .sub-container .menu-main{
 	list-style-type: none;
-	padding: 0px;
-	margin: 0px;
 	float: left;
 }
 
 .navigator-bar .sub-container .menu-main li {
 	float: left;
+	height: 3em;
+	margin: 0 0.25em;
 }
 
 .navigator-bar .sub-container .menu-main li a {
-	text-decoration: none;
 	float: left;
-	background: #000;
-	color: white;
-	font-weight: bold;
-	text-align: center;
-	border:0;
-	width: 100%;
-	text-transform: uppercase;
-	height: 38px;
-	padding: 5px 10px;
+	height: 2em;
+	padding: 0.9em 1em 0 1em;
 }
 
 .navigator-bar .sub-container .hot-line{
 	position: absolute;
 	right:0;
-	top: 1em;
+	top: 0.75em;
 }
-
+/*menu banner free transport ship-online and */
 .sub-container .sp-banner {
-	width:26em;
+	width: 26em;
+	margin: 1.5em 0  0 1em ;
+	float: left;
+	position: relative;
 }
-
-	.sp-banner .sp-banner-icon{
-		float: left;
-	}
 
 	.sp-banner .sp-banner-content{
-		
+		margin-left: 4em; 
 	}
-
-.free-ship{
-	float: left;
-}
-
-.order-online{
-	float: left;
-}
-
-.change-return{
-	float: left;
-}

@@ -6,7 +6,7 @@
   height: 7em;
   line-height: 20px;
   border-bottom: 1px solid #e8e8e8;
-  margin:1em 0 0 1em;
+  margin: 0.5em 0 0 1em;
 }
 
 .best-sell-menu ul li:first-child {
@@ -25,10 +25,6 @@
   color: white;
 }
 
-.best-sell-menu-icon{
-	float: left;
-}
-
-.best-sell-menu-content{
-	
+.explain-text {
+  font-size: 14px;
 }
