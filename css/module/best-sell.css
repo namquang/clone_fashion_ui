@@ -6,7 +6,6 @@
   height: 7em;
   line-height: 20px;
   border-bottom: 1px solid #e8e8e8;
-  margin: 0.5em 0 0 1em;
 }
 
 .best-sell-menu ul li:first-child {
@@ -27,4 +26,5 @@
 
 .explain-text {
   font-size: 14px;
+  
 }

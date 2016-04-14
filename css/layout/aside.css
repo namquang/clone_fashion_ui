@@ -1,30 +1,66 @@
 
-.best-sell-menu .best-sell-menu-icon{
-	float: left;
-
+.best-sell-item {
+	padding: 0.5em 0 0 0.5em; 
 }
 
-.best-sell-menu .best-sell-menu-content {
+.best-sell-item::after{
+    clear: both;
+}
+
+.best-sell-item::before, .best-sell-item::after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+
+.best-sell-item .best-sell-menu-icon{
 	float: left;
+}
+
+.best-sell-item .best-sell-menu-content {
+	float: left;
+	margin: 0 0 10px 10px;
 	overflow: auto;
+	
 }
 
-.news-item {
+.news-menu {
+	padding-bottom: 10px;
+}
+
+.news-menu::after{
+    clear: both;
+}
+
+.news-menu::before, .news-menu::after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+
+.news-menu .news-item {
 	margin-top: 10px;
-}
-
-.news-item .news-menu-title {
-
+	float: left;
 }
 
 .news-item .news-menu-content {
-
+	display: flex;
 }
 
-.news-menu-content .news-icon {
-	float: left;
+	.news-menu-content .news-icon {
+
+	}
+	.news-menu-content .news-explain { 
+		margin-left: 1em; 
+	}
+
+.statistical-access{
+	margin-top: 3em	;
 }
-.news-menu-content .news-explain{
-	float: right;
-	word-wrap: break-word;
+.statistical-access	.tb-view-access {
+	text-align: center;
+	width: 100%;
+}
+.statistical-access .number-access {
+	margin:1em 0 1em 7em;
 }

@@ -1,0 +1,18 @@
+footer{
+	background: #E1E1E1;
+}
+
+footer::after{
+    clear: both;
+}
+
+footer::before, .footer::after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+
+footer .footer-item {
+	float: left;
+	margin: 2em 0 10em 5em;
+}
