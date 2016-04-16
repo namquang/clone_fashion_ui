@@ -16,3 +16,12 @@ footer .footer-item {
 	float: left;
 	margin: 2em 0 10em 5em;
 }
+
+.footer-item .footer-item-content {
+	margin-top: 1em;
+}
+
+.footer-item .footer-contact {
+	margin: 1em 0 0 1em;
+	line-height: 25px;
+}

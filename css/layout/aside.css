@@ -23,7 +23,7 @@
 	overflow: auto;
 	
 }
-
+/* menu news */
 .news-menu {
 	padding-bottom: 10px;
 }
@@ -50,6 +50,7 @@
 	.news-menu-content .news-icon {
 
 	}
+	
 	.news-menu-content .news-explain { 
 		margin-left: 1em; 
 	}
@@ -57,10 +58,12 @@
 .statistical-access{
 	margin-top: 3em	;
 }
+
 .statistical-access	.tb-view-access {
 	text-align: center;
 	width: 100%;
 }
+
 .statistical-access .number-access {
 	margin:1em 0 1em 7em;
 }

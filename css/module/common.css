@@ -23,15 +23,15 @@
 }
 
 .btn-cart {
-		background: #ea028a;
-		text-align: center;
-		width: 10px;
-		height: 10px;
-		padding: 7px 15px 7px 15px;
-		margin: 5px;
-		-moz-border-radius: 100px;
-		-webkit-border-radius: 100px;
-		border-radius: 100px;
+	background: #ea028a;
+	text-align: center;
+	width: 10px;
+	height: 10px;
+	padding: 10px;
+	margin: 5px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
 }
 
 .link {
@@ -49,4 +49,15 @@
 
 .last { 
 	margin-right: 0 !important;
+}
+.link-footer {
+	color: #000;
+	text-decoration: none;
+	line-height: 25px;
+}
+.link-footer:hover {
+	color: #08c;
+}
+.icon-title {
+	padding-right: 3px;
 }
