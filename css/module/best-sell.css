@@ -3,7 +3,7 @@
 }
 
 .best-sell-menu ul li:not(:first-child){
-  height: 7em;
+  height: 7.5em;
   line-height: 20px;
   border-bottom: 1px solid #e8e8e8;
 }

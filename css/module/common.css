@@ -50,14 +50,6 @@
 .last { 
 	margin-right: 0 !important;
 }
-.link-footer {
-	color: #000;
-	text-decoration: none;
-	line-height: 25px;
-}
-.link-footer:hover {
-	color: #08c;
-}
 .icon-title {
-	padding-right: 3px;
+	margin-right: 3px;
 }

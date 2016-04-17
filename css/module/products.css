@@ -1,14 +1,11 @@
 .product-title {
 	display: block;
     font-family: CalibriBold;
+	font-size: 20px;
     line-height: 20px !important;
     text-transform: uppercase;
     word-wrap: break-word;
 	color: #666;
-}
-
-.group-icon-product {
-	visibility: hidden;
 }
 /* product-large*/
 .product-large { 
@@ -37,11 +34,24 @@
 	color: #888;
 	padding:5px;
 } 
-
+.icon-circle {
+	background: #666;
+	text-align: center;
+	width: 10px;
+	height: 10px;
+	padding: 10px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+}
+.icon-circle: hover {
+	background: #cea189;
+}
 /* product-small*/
 
 .product-small {
 	background: #E1E1E1;
 }
+
 
 

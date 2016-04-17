@@ -14,7 +14,7 @@ footer::before, .footer::after {
 
 footer .footer-item {
 	float: left;
-	margin: 2em 0 10em 5em;
+	margin: 2em 0 10em 4em;
 }
 
 .footer-item .footer-item-content {
@@ -23,5 +23,5 @@ footer .footer-item {
 
 .footer-item .footer-contact {
 	margin: 1em 0 0 1em;
-	line-height: 25px;
+	line-height: 30px;
 }

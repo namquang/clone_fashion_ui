@@ -1,6 +1,7 @@
 
 .best-sell-item {
 	padding: 0.5em 0 0 0.5em; 
+	display: flex;
 }
 
 .best-sell-item::after{
@@ -19,9 +20,7 @@
 
 .best-sell-item .best-sell-menu-content {
 	float: left;
-	margin: 0 0 10px 10px;
-	overflow: auto;
-	
+	margin: 0 0 10px 10px;	
 }
 /* menu news */
 .news-menu {
