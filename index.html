@@ -17,6 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="css/module/common.css">
     <link rel="stylesheet" type="text/css" href="css/module/menu.css">
     <link rel="stylesheet" type="text/css" href="css/module/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/module/statistical.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome/icon-awesome.css">
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.5.0/css/font-awesome.min.css">
 </head>
@@ -51,8 +52,19 @@
 						</button>
 					</div>
 					<div class="shop-card">
-						<a> <a class="btn-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>GIỎ HÀNG: 0 item <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+						<div class="sp-mini-cart"> 
+							<a class="btn-cart">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							</a>GIỎ HÀNG: 0 item <i class="fa fa-caret-down" aria-hidden="true"></i>
+						</div>
+						<div class="expand-shop-card top-cart-sitebar">
+							<div class="expand-shop-card-content">
+								<p class="expand-shop-content">Bạn không có sản phẩm nào trong giỏ hàng của bạn.</p>
+								<div class="expand-shop-price"><Strong>Tổng giá tiền:</strong> <span>0 đ</span></div> 
+							</div>
+						</div>
 					</div>
+					
 				</div>
             </div>
         <!-- end logo and search -->
@@ -63,7 +75,22 @@
 			<nav class = "sub-container">
 				<ul class= "menu-main">
 					<li class="menu-item"><a href="#" class="menu-item">Trang chủ</a></li>
-					<li class="menu-item"><a href="#" class="menu-item">Sản phẩm</a></li>
+					<li class="menu-item"><a href="#" class="menu-item">Sản phẩm <i class="fa fa-caret-down"></i></a>
+						<ul class="sub-menu sub-level">
+							<li><a class="sub-menu-item" href="#">ÁO SƠ MI NỮ</a></li>
+							<li><a class="sub-menu-item" href="#">ÁO KHOÁC NỮ</a></li>
+							<li class="expand-sub-menu-main"><a class="sub-menu-item" href="#">CHÂN VÁY </a>
+								<ul class="third-nav sub-three-level">
+									   <li><a href="#">CHÂN VÁY XOE</a></li>
+								</ul>
+								<i class="fa fa-angle-right " aria-hidden="true"></i>
+							</li>
+							<li><a class="sub-menu-item" href="#">ÁO THUN NỮ</a></li>
+							<li><a class="sub-menu-item" href="#">PHỤ KIỆN</a></li>
+							<li><a class="sub-menu-item" href="#">TÚI XÁCH</a></li>
+							<li><a class="sub-menu-item" href="#">QUẦN ÁO NGỦ</a></li>
+						</ul>
+					</li>
 					<li class="menu-item"><a href="#" class="menu-item">Khuyến mãi</a></li>
 					<li class="menu-item"><a href="#" class="menu-item">Giới thiệu</a></li>
 					<li class="menu-item"><a href="#" class="menu-item">Tin tức</a></li>
@@ -79,21 +106,21 @@
             <div class="sp-banner banner-item">
                 <i class="fa fa-truck fa-3x"></i>
 				<div class="sp-banner-content">
-					<h3 class="product-title">Miễn phí vận chuyển</h3>
+					<h3 class="sp-banner-title">Miễn phí vận chuyển</h3>
 					Miễn phí Ship Đơn hàng > 200k
 				</div>
             </div>
             <div class="banner-item sp-banner">
                 <i class="fa fa-laptop fa-3x" aria-hidden="true"></i>
 				<div class="sp-banner-content">
-					<h3 class="product-title">Đặt hàng online</h3>
+					<h3 class="sp-banner-title">Đặt hàng online</h3>
 					Đặt hàng dễ dàng trên hệ thống
 				</div>
             </div>
             <div class= "banner-item sp-banner">
                 <i class="fa fa-usd fa-3x" aria-hidden="true"></i>
 				<div class="sp-banner-content">
-					<h3 class="product-title">Đổi Trả Hàng</h3>
+					<h3 class="sp-banner-title">Đổi Trả Hàng</h3>
 					Chúng tôi đổi trả hàng cho đến khi bạn hài lòng.
 				</div>
             </div>
@@ -108,7 +135,7 @@
                         <li><a href="#default"><i class="fa fa-align-justify" aria-hidden="true"></i>Danh Mục Sản Phẩm</a></li>
                         <li><a href="#sm">ÁO SƠ MI NỮ</a></li>
                         <li><a href="#ak">ÁO KHOÁC NỮ</a></li>
-                        <li><a href="#cv">CHÂN VÁY</a></li>
+                        <li><a href="#cv">CHÂN VÁY <img class="separate-nav" src="image/bg-left-menu.png"/></a></li>
                         <li><a href="#tn">ÁO THUN NỮ</a></li>
                         <li><a href="#pk">PHỤ KIỆN</a></li>
                         <li><a href="#tx">TÚI XÁCH</a></li>
@@ -118,7 +145,7 @@
                 <!-- -->
                 <nav class="best-sell-menu">
                     <ul>
-                        <li><a href="#default"><i class="fa fa-sellsy" aria-hidden="true"></i>Sản phẩm Bán Chạy</a></li>
+                        <li><a href="#default"><i class="fa fa-chain-broken" aria-hidden="true"></i>Sản phẩm Bán Chạy</a></li>
                         <li>
                             <div class="best-sell-item">
                                 <img class="best-sell-menu-icon" src="image/timthumb_002.jpg" alt="image"/>
@@ -153,7 +180,7 @@
                 <!-- -->
                 <nav class="news-menu">
                     <ul>
-                        <li><a href="#default"><i class="fa fa-sellsy" aria-hidden="true"></i>Tin tức cập nhật</a></li>
+                        <li><a href="#default"><i class="fa fa-chain-broken" aria-hidden="true"></i>Tin tức cập nhật</a></li>
                         <!-- -->
                         <li>
                              <div class="news-item">
@@ -205,7 +232,7 @@
                 </div>
                 <!-- -->
                 <div class="statistical-access">
-                    <p class="menu-statistical"><i class="fa fa-align-justify" aria-hidden="true"></i>THỐNG KÊ TRUY CẬP</p>
+                    <p class="menu-statistical"><i class="fa fa-chain-broken" aria-hidden="true"></i>THỐNG KÊ TRUY CẬP</p>
                     <p class="number-access">5203</p>
                     <table class="tb-view-access">
                         <tbody class="body-tb-access">
@@ -240,7 +267,7 @@
             </aside>
             <!-- end left menu nav -->
             <article class="content-main">
-                <img src="image/fashion-banner02.jpg" alt="image" width="100%"/>
+                <img src="image/fashion-banner02.jpg" alt="image" width="100%" height="331px"/>
                 <div class="new-product-large-list">
                     <h3 class="product-title">
                         <img src="image/bg_vina_title.png" alt="image" />
@@ -727,21 +754,28 @@
                     <div class="footer-item">
                         <h3 class="footer-item-title"><img src="image/bg_vina_title.png" alt="image" />  Mạng Xã Hội</h3>
                          <ul class="footer-item-content">
-                                <li><a class="link-footer" href="#"> Face Book</a></li>
-                                <li><a class="link-footer" href="#"> Youtube</a></li>
-                                <li><a class="link-footer" href="#"> Google +</a></li>   
+                                <li><a class="link-footer" href="#"><img class="icon-social" src="image/facebook.png" width="30px" height="30px"/> Face Book</a></li>
+                                <li><a class="link-footer" href="#"><img class="icon-social" src="image/youtube.png" width="30px" height="30px"/> Youtube</a></li>
+                                <li><a class="link-footer" href="#"><img class="icon-social" src="image/google.png" width="30px" height="30px"/> Google +</a></li>   
                         </ul>
                     </div>
                     <div class="footer-item">
                         <h3 class="footer-item-title"><img class="icon-title" src="image/bg_vina_title.png" alt="image" /> Facebook</h3>
-                         <ul class="footer-item-content">
-                                <li><a  href="#"> Face Book</a></li>
-                                <li><a href="#"> Youtube</a></li>
-                                <li><a href="#"> Google +</a></li>   
-                        </ul>
                     </div>
                 </div>
+				<div class="copy-right footer-about">
+					 <div class="sub-container">
+						<p class="footer-about-content">
+							Copyright © 2016 Thaibinhweb.net. All Rights Reserved.
+						</p>
+						<img class="payment" src="image/payment.png"/>
+					 </div>
+				</div>
             </footer> 
-    </div>
+			<div class="chat-support"><span>Liên hệ với chúng tôi</span>
+				<img title="Maximize" id="max" src="media/max.png">
+				<img title="Minimize" id="min" src="media/min.png">	
+				<img title="Zigzag Chat" id="gozig" src="media/zigzag.png"></div>
+			</div>
 </body>
 </html>

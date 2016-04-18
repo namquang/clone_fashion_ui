@@ -34,6 +34,15 @@
 	border-radius: 100px;
 }
 
+.sp-mini-cart:hover{
+	color: #ea028a;
+}
+
+.top-cart-sitebar {
+	text-align: right;
+	line-height: 30px;
+	background: #fff;
+}
 .link {
 	text-decoration: none;
 	color: #d60202;
@@ -52,4 +61,8 @@
 }
 .icon-title {
 	margin-right: 3px;
+}
+.sp-banner-title {
+	font: 16px/20px 'Roboto Condensed', sans-serif !important;
+	text-transform: uppercase;
 }

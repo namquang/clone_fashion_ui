@@ -5,11 +5,15 @@
 .fa-truck, .fa-laptop, .fa-usd {
     color: #666;
 }
-.fa-align-justify, .fa-sellsy{
+.fa-align-justify, .fa-sellsy, .fa-chain-broken{
      color: #fff;
      margin-right: 1em;
 }
 .fa-star {
     color: #b1b1b1; 
     padding: 2px;
+}
+.fa-angle-right {
+	 color: #666;
+	 margin-top: 1em;
 }

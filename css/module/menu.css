@@ -7,6 +7,7 @@
 	border:0;
 	text-transform: uppercase;
 	height: 38px;
+	position: relative;
 }
 
 .menu-item:hover {
@@ -21,4 +22,28 @@ banner-item {
 .banner-item:hover {
     opacity: 0.4;
     filter: alpha(opacity=40);
+}
+
+.sub-level{
+	background: #fff;
+	box-shadow: 5px 5px 2px #888888;
+}
+
+.sub-level li {
+	width: 100%;
+	border-bottom: 1px solid #d1d1d1;
+}
+
+.sub-level li:hover {
+	background: #e1e1e1;
+}
+
+.sub-level li a {
+	text-decoration: none;
+	color: #d60202;
+}
+
+.sub-three-level {
+	background: #fff;
+	border: 1px solid #e1e1e1;
 }

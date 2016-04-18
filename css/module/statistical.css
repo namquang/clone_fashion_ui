@@ -1,3 +1,8 @@
 .body-tb-access tr{
 	border-bottom: 1px dotted #e8e8e8;
 }
+.body-tb-access td + td {
+    text-align: left;
+    border: none;
+    border-bottom: 1px rgb(215,215,215) dashed;
+}

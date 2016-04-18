@@ -35,3 +35,31 @@
 	.sp-banner .sp-banner-content{
 		margin:-3em 0 0 4em; 
 	}
+
+.menu-item .sub-menu{
+	display: none;
+	position: absolute;
+	top: 42px;
+	left: 0;
+	z-index: 100;
+	width: 12em;
+	padding: 10px 17px 10px 10px;
+}
+.menu-item:hover .sub-menu {
+	display: block;
+}
+
+.sub-menu .third-nav {
+	position: absolute;
+	left: 12.9em;
+	width: 12em;
+	display: none;
+}
+
+.sub-menu .expand-sub-menu-main:hover .third-nav {
+	display: block;
+}
+
+.expand-sub-menu-main .third-nav:hover{
+	display: block;
+}

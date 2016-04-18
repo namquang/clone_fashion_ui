@@ -19,3 +19,11 @@
 .link-footer:hover {
 	color: #08c;
 }
+.icon-social {
+	vertical-align: middle;
+}
+.copy-right {
+	background: #000;
+	height: 10em;
+	color: #f1f1f1;
+}
