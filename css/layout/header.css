@@ -1,84 +1,56 @@
-.l-header{
-	
-}
-
 .l-header .header-top-bar {
-	padding: 7px 0px;
-	background: #ddd none repeat scroll 0 0;
-}
+  padding: 7px 0px;
+  background: #ddd none repeat scroll 0 0; }
+  .l-header .header-top-bar .sub-container .header-contact {
+    float: left; }
+  .l-header .header-top-bar .sub-container .header-link-shop-card {
+    position: absolute;
+    right: 0px; }
+    .l-header .header-top-bar .sub-container .header-link-shop-card li {
+      float: left;
+      margin-right: 1em; }
+.l-header .header-logo-search {
+  padding-top: 5px;
+  line-height: 50px; }
+  .l-header .header-logo-search .sub-container .logo {
+    float: left;
+    width: 38%; }
+  .l-header .header-logo-search .sub-container .search {
+    float: left;
+    width: 39%;
+    margin: 2em 0 0 4em; }
+    .l-header .header-logo-search .sub-container .search .input-search {
+      height: 2.7em;
+      width: 18em;
+      float: left;
+      padding: 0.15em 2em; }
+    .l-header .header-logo-search .sub-container .search .btn-search {
+      height: 3em;
+      width: 5em;
+      float: left;
+      position: relative; }
+  .l-header .header-logo-search .sub-container .shop-card {
+    position: absolute;
+    right: 0px;
+    top: 2em; }
+    .l-header .header-logo-search .sub-container .shop-card .expand-shop-card {
+      position: absolute;
+      right: 0px;
+      top: 3.5em;
+      width: 20em;
+      z-index: 100;
+      max-height: 0;
+      overflow: hidden;
+      -webkit-transition: max-height 0.8s;
+      -moz-transition: max-height 0.8s;
+      transition: max-height 0.8s; }
+      .l-header .header-logo-search .sub-container .shop-card .expand-shop-card .expand-shop-card-content {
+        border: 0.1px solid #e1e1e1; }
+      .l-header .header-logo-search .sub-container .shop-card .expand-shop-card .expand-shop-content {
+        margin: 10px; }
+      .l-header .header-logo-search .sub-container .shop-card .expand-shop-card .expand-shop-price {
+        margin: 10px; }
+    .l-header .header-logo-search .sub-container .shop-card:hover .expand-shop-card {
+      max-height: 10em; }
 
-	.header-top-bar .sub-container .header-contact {
-		float: left;
-	}
-
-	.header-top-bar .sub-container .header-link-shop-card {
-		position: absolute;
-		right: 0px;
-	}
-	
-	.header-link-shop-card  li{
-		float: left;
-		margin-right:1em;
-	}
-	
-.l-header  .header-logo-search {
-	padding-top: 5px;
-	line-height: 50px;
-}
-	.header-logo-search .sub-container .logo {
-		float: left;
-		width: 38%;
-	}
-	
-	.header-logo-search .sub-container .search {
-		float: left;
-		width: 39%;
-		margin: 2em 0 0 4em;	
-	}
-		.search .input-search {			
-			height: 2.7em;
-			width: 18em;
-			float: left;
-			padding: 0.15em 2em;
-		}
-		.search .btn-search {
-			height: 3em;
-			width: 5em;
-			float: left;
-			position: relative;
-		}
-		
-	.header-logo-search .sub-container .shop-card {
-		position: absolute;
-		right: 0px;
-		top: 2em;		
-	}
-	
-	.shop-card .expand-shop-card {
-		position: absolute;
-		right: 0px;
-		top: 3.5em;		
-		width: 20em;
-		z-index:100;
-		max-height: 0;
-		overflow: hidden;
-		-webkit-transition: max-height 0.8s;
-		-moz-transition: max-height 0.8s;
-		transition: max-height 0.8s;
-	}
-	
-	.expand-shop-card .expand-shop-card-content {
-		border: 0.1px solid #e1e1e1;
-	}
-	
-	.shop-card:hover  .expand-shop-card {
-		max-height: 10em;
-	}
-	
-	.expand-shop-card .expand-shop-content {
-		margin:10px;
-	}
-	
-	.expand-shop-card .expand-shop-price {
-		margin:10px;
-	}
+/*# sourceMappingURL=header.css.map */
